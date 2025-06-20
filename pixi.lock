@@ -12349,9 +12349,12 @@ packages:
   size: 28669
   timestamp: 1733750596111
 - pypi: ./
-  name: splinart
+  name: splinart-mezziati
   version: 0.1.0
-  sha256: 067e6d63682c8966f23f69c6f61fcc24fdacd25c0ef269253adffa6791ab94b2
+  sha256: 3f24b9217d267fe75d8b5d2035d6f019445c00791670c3b062945be065db5d0f
+  requires_dist:
+  - numpy
+  - matplotlib
   requires_python: '>=3.8'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
