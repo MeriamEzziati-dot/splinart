@@ -12351,7 +12351,10 @@ packages:
 - pypi: ./
   name: splinart
   version: 0.1.0
-  sha256: 067e6d63682c8966f23f69c6f61fcc24fdacd25c0ef269253adffa6791ab94b2
+  sha256: fa4ac8bc5f04bc1b5d224a89f8d339f0dabe59aab9119be845e24c5d2846a766
+  requires_dist:
+  - numpy
+  - matplotlib
   requires_python: '>=3.8'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
